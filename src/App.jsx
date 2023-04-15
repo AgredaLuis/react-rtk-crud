@@ -12,8 +12,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/react-rtk-crud" element={<TaskList />} />
-            <Route path="/create-task" element={<TaskForm />} />
-            <Route path="/edit-task/:id" element={<TaskForm />} />
+            <Route path="react-rtk-crud/create-task" element={<TaskForm />} />
+            <Route path="/react-rtk-crud/edit-task/:id" element={<TaskForm />} />
           </Routes>
         </BrowserRouter>
       </div>

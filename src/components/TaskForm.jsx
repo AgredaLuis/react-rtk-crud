@@ -31,7 +31,7 @@ const TaskForm = () => {
 
     if (params.id) {
       dispacth(editTask(task));
-      navigate("/");
+      navigate("/react-rtk-crud/");
     } else {
       dispacth(
         addTask({
@@ -39,7 +39,7 @@ const TaskForm = () => {
           id: uuid(),
         })
       );
-      navigate("/");
+      navigate("/react-rtk-crud/");
     }
   };
 

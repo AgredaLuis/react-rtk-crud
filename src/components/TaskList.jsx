@@ -30,7 +30,7 @@ const TaskList = () => {
             <header className="flex justify-between">
               <h3>{task.title}</h3>
               <div className="flex gap-x-2">
-              <Link className="bg-zinc-600 px-2 py-1 text-xs rounded-md"  to={`/edit-task/${task.id}`}>Edit</Link>
+              <Link className="bg-zinc-600 px-2 py-1 text-xs rounded-md"  to={`/react-rtk-crud/edit-task/${task.id}`}>Edit</Link>
               <button className="bg-red-500 px-2 py-1 text-xs rounded-md"   onClick={() => handleDelete(task.id)}  >Delete</button>
               </div>
             </header>
