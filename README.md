@@ -5,6 +5,8 @@
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
+![Imagen de la parte awards de la pagina.](https://github.com/AgredaLuis/react-rtk-crud/blob/main/public/redux-toolkit.png)
+
 ## Features
 
 - Navegar por paginas
